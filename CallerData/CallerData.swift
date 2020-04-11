@@ -19,7 +19,7 @@ public final class CallerData {
     
     lazy var persistentContainer: NSPersistentContainer = {
         let momdName = "CallKitTutorial"
-        let groupName = "group.me.wilko.CallKitTutorial"
+        let groupName = "group.Arindam.CallKitTutorial"
         let fileName = "demo.sqlite"
         
         guard let modelURL = Bundle(for: type(of: self)).url(forResource: momdName, withExtension:"momd") else {

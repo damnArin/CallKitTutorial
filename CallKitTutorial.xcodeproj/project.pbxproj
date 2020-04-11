@@ -66,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B716F8572442034000A94AB5 /* CallKitTutorialExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallKitTutorialExtensionRelease.entitlements; sourceTree = "<group>"; };
+		B716F8582442049700A94AB5 /* CallKitTutorialRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallKitTutorialRelease.entitlements; sourceTree = "<group>"; };
 		BB28AFCD2255D34200AABC7C /* CallKitTutorialExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallKitTutorialExtension.entitlements; sourceTree = "<group>"; };
 		BB3336FC221BCECD00711ED7 /* CallKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3336FF221BCECD00711ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		BB3336FE221BCECD00711ED7 /* CallKitTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B716F8582442049700A94AB5 /* CallKitTutorialRelease.entitlements */,
 				BB33375A221D62C400711ED7 /* CallKitTutorial.entitlements */,
 				BB3336FF221BCECD00711ED7 /* AppDelegate.swift */,
 				BB333701221BCECD00711ED7 /* ViewController.swift */,
@@ -163,6 +166,7 @@
 		BB4F96FE223A3B280042DE6F /* CallKitTutorialExtension */ = {
 			isa = PBXGroup;
 			children = (
+				B716F8572442034000A94AB5 /* CallKitTutorialExtensionRelease.entitlements */,
 				BB28AFCD2255D34200AABC7C /* CallKitTutorialExtension.entitlements */,
 				BB4F96FF223A3B280042DE6F /* CallDirectoryHandler.swift */,
 				BB4F9701223A3B280042DE6F /* Info.plist */,
@@ -521,7 +525,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilko.CallKitTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arindam.CallKitTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,16 +537,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CallKitTutorial/CallKitTutorial.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CallKitTutorial/CallKitTutorialRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UPP93EJ3U2;
+				DEVELOPMENT_TEAM = DMHSYRF3VA;
 				INFOPLIST_FILE = "$(SRCROOT)/CallKitTutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilko.CallKitTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arindam.CallKitTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,7 +572,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilko.CallerData;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arindam.CallerData;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -598,7 +602,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilko.CallerData;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arindam.CallerData;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -620,7 +624,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilko.CallKitTutorial.CallKitTutorialExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arindam.CallKitTutorial.CallKitTutorialExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -631,16 +635,16 @@
 		BB4F9706223A3B280042DE6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = CallKitTutorialExtension/CallKitTutorialExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CallKitTutorialExtension/CallKitTutorialExtensionRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UPP93EJ3U2;
+				DEVELOPMENT_TEAM = DMHSYRF3VA;
 				INFOPLIST_FILE = CallKitTutorialExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilko.CallKitTutorial.CallKitTutorialExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arindam.CallKitTutorial.CallKitTutorialExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
